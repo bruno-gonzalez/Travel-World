@@ -1,0 +1,89 @@
+.passagens-section {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+ }
+ 
+ .div-passagens {
+   width: 20%;
+   height: 40%;
+   border:2px solid #242424;
+   border-radius:20px;
+   margin: 4% 0% 5% 0%;
+   transition: all .3s ease;
+   box-shadow: 4px 3px 4px 2px #808080b6;
+   cursor: pointer;
+ }
+ 
+ .div-passagens:hover {
+   transition: all .3s ease;
+   box-shadow: -4px -1px 4px 2px #808080b6;
+   opacity: 0.9;
+   width: 20.2%;
+ }
+ 
+ .imagens-passagens {
+   width: 100%;
+   height: 80%;
+ }
+ 
+ .itens-lista-informacoes {
+   text-align: center;
+   padding: 5px 5px 10px 5px;
+ }
+ 
+ .paragrafo-destinos {
+   padding: 10px;
+   text-align: center;
+   font-size: 1.2rem;
+ }
+ 
+ .botao-agendar {
+   height: 10%;
+   width: 25%;
+   font-size: 0.9rem;
+   color: #f0ffff;
+   padding: 8px;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+   background-image: linear-gradient(to right,#f815b8de 80%, #fd01b6bd);
+   transition: all 1s ease;
+ }
+ 
+ .botao-agendar:hover {
+   transition: all 1s ease;
+   width: 50%;
+   opacity: 0.8;
+   background-image: linear-gradient(to left,#f8159ade 80%, #fd014dbd);
+ }
+
+ @media screen and (max-width:800px){
+
+   .passagens-section {
+      flex-flow: column;
+      align-items: center;
+      padding: 2em 0;
+   }
+
+   .div-passagens {
+      width: 80%;
+   }
+   
+   .div-passagens:hover {
+      transition: all .3s ease;
+      box-shadow: -4px -1px 4px 2px #808080b6;
+      opacity: 0.9;
+      width: 80%;
+   }
+
+}
+
+@media screen and (max-width:1500px) {
+
+  .botao-agendar {
+    width: 100px;
+    height: 50px;
+  }
+
+}

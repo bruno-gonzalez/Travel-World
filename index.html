@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passagens</title>
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+  <header class="cabecalho-link"><P></P>
+    <a href="./index.html"><img class="logo-mobile" src="./img/logo-mobile.png" alt="logo"></a>
+
+    <a href="./index.html"><img class="logo-imagem" src="./img/logo-imagem.png" alt="logo"></a>
+   
+
+    <div class="pesquisa-input">
+      <input type="search" name="pesquisaPassagens" id="pesquisaPassagem" class="pesquisa-passagem" placeholder="Pesquise Passagens.">
+    </div>
+
+    <ul class="lista-links">
+      <li class="itens-lista-links"><a>Home</a></li>
+      <li class="itens-lista-links"><a>Agendas</a></li>
+      <li class="itens-lista-links"><a>Contato</a></li>
+    </ul>
+  </header>
+
+  <section class="mobile__pesquisa">
+    <input type="search" class="mobile__pesquisa-input" placeholder="Pesquise sua passagem.">
+  </section>
+
+  <section class="banner">
+    <h1 class="titulo-principal">Travel World</h1>
+  </section>
+
+  <section class="passagens-section">
+    
+    <div class="div-passagens">
+      <p class="paragrafo-destinos">São Paulo</p>
+      <img class="imagens-passagens" src="./img/sao-paulo-imagem.jpg" alt="Sao paulo Imagem">
+      <ul class="informacoes-passagens">
+        <li class="itens-lista-informacoes">13 passagens disponíveis.</li>
+        <li class="itens-lista-informacoes">Primeira classe disponível.</li>
+        <li class="itens-lista-informacoes">A partir de R$ 400,00.</li>
+        <li class="itens-lista-informacoes"><button class="botao-agendar" onclick="location.href='/!saoPaulo.html'" target="_blank">Agendar</button></li>
+      </ul>
+    </div>
+
+    <div class="div-passagens">
+      <p class="paragrafo-destinos">Rio de Janeiro</p>
+      <img class="imagens-passagens" src="./img/rio-de-janeiro-imagem.jpg" alt="Rio de janeiro Imagem">
+      <ul class="informacoes-passagens">
+        <li class="itens-lista-informacoes">10 passagens disponíveis.</li>
+        <li class="itens-lista-informacoes">Primeira classe esgotada.</li>
+        <li class="itens-lista-informacoes">A partir de R$ 350,00.</li>
+        <li class="itens-lista-informacoes"><button class="botao-agendar" onclick="location.href='/!RiodeJaneiro.html'">Agendar</button></li>
+      </ul>
+    </div>
+
+    <div id="#1" class="div-passagens">
+      <p class="paragrafo-destinos">Fortaleza</p>
+      <img class="imagens-passagens" src="./img/fortaleza-imagem.jpg" alt="Fortaleza Imagem">
+      <ul class="informacoes-passagens">
+        <li class="itens-lista-informacoes">8 passagens disponíveis</li>
+        <li class="itens-lista-informacoes">Primeira classe disponível.</li>
+        <li class="itens-lista-informacoes">A partir de R$500,00.</li>
+        <li class="itens-lista-informacoes"><button class="botao-agendar" onclick="location.href='/!fortaleza.html'">Agendar</button></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <div class="rodape-redesSociais">
+      <a href="https://www.facebook.com/bruno.gonzalez.946179/" target="_blank"><img class="icones-redesSociais" src="./img/faceicon.png" alt="icone facebook"></a>
+      <a href="https://twitter.com/uBrNo1" target="_blank"><img class="icones-redesSociais" src="./img/twittericon.png" alt="icone twitter"></a>
+      <a href="https://www.instagram.com/btorres1903/" target="_blank"><img class="icones-redesSociais" src="./img/instaicon.png" alt="icone instagram"></a>
+    </div>
+    
+     <img class="rodape-logo-imagem" src="./img/logo-imagem.png" alt="logo">
+     
+    <div class="rodape-contato">
+      <label for="inputContato">ENTRE EM CONTATO</label>
+      <input class="input-contato" type="email" name="emailContato" id="inputContato" required><button class="button-contato">Enviar</button>
+    </div>
+    
+  </footer>
+  
+<script src="alura.js"></script>
+</body>
+</html>

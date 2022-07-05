@@ -1,0 +1,97 @@
+.rodape {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   background-color: var(--background-branco);
+   box-shadow: -1px -1px 8px 2px #0000002c;
+ }
+ 
+ .rodape-redesSociais {
+   display: flex;
+   width: 20%;
+ }
+ 
+ .rodape-redesSociais a {
+   width: 20%;
+ }
+ 
+ .icones-redesSociais {
+   width: 40px;
+ }
+ 
+ .icones-redesSociais:hover {
+   transition: .6s;
+   opacity: .5;
+ }
+ 
+ 
+ .input-contato {
+   width: 65%;
+   margin-top: 10px;
+   border: none;
+   border-bottom:2px solid #fc143a;
+   padding: 5px;
+   font-size: 1.1rem;
+   transition: .6s;
+ }
+ 
+ .input-contato:hover {
+   border-radius: 10px 10px 0 10px;
+   transition: .6s;
+ }
+ 
+ .button-contato {
+   width: 80px;
+   padding: 8px;
+   font-weight: bold;
+   font-size: 1rem;
+   color: var(--background-branco);
+   cursor: pointer;
+   border:none;
+   border-radius: 12px 4px 12px 4px;
+   background-image:linear-gradient(to right, #ff0080fa, #f00f92af);
+   text-transform: uppercase;
+   transition: .8s;
+ }
+ 
+ .button-contato:hover {
+   transition: .8s;
+   opacity: .7;
+   border-radius: 12px 6px 12px 6px;
+ }
+ 
+ @media screen and (max-width:800px){
+   
+   .rodape {
+      flex-flow: column-reverse;
+      padding: 2em 0;
+      justify-content: center;
+   }
+
+   .input-contato {
+      padding-top: 1em;
+      text-align: center;
+      width: 60%;
+   }
+
+   .rodape-logo-imagem {
+      padding: 2em 0;
+   }
+
+   .rodape-contato {
+      display: block;
+      text-align: center;
+   }
+
+   .rodape-contato label {
+    display: block;
+      width: 100%;
+   }
+
+   .rodape-redesSociais {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+   }
+}
